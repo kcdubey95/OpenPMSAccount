@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d058d1f-21c7-49ec-8ccf-01196e3b52a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OprnPMSAccount.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/step1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/step2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/step3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/open_accont_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/step2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/step3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OprnPMSAccount.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OprnPMSAccount.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +28,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kygEvlGO59nMfdwGbEQh43HUEv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,12 +51,15 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
+    "Python.open_accont_form.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/kc/python/OprnPMSAccount"
+    "last_opened_file_path": "E:/kc/python/OpenPMSAccount/static/js",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kc\python\OpenPMSAccount\static\js" />
       <recent name="E:\kc\python\OprnPMSAccount" />
     </key>
   </component>
