@@ -1,4 +1,9 @@
 flask
 reportlab
-SQLAlchemy
+Flask-SQLAlchemy
+flask_migrate
 pydantic
+pydantic_settings
+databases
+mysqlclient
+
