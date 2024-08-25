@@ -58,7 +58,7 @@ flask db init,
 flask db migrate,
 flask db upgrade,
 
-Import tables from Master_db_bk
+Import tables from Master_db_bk folder
 
 
 ## Step 6: Run the Project
