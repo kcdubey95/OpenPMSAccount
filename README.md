@@ -54,9 +54,9 @@ If your Flask project uses a database, you may need to initialize the database a
 
 bash
 Copy code
-flask db init
-flask db migrate
-flask db upgrade
+flask db init,
+flask db migrate,
+flask db upgrade,
 
 Import tables from Master_db_bk
 
