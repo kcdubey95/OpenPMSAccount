@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d058d1f-21c7-49ec-8ccf-01196e3b52a8" name="Changes" comment="" />
+    <list default="true" id="3d058d1f-21c7-49ec-8ccf-01196e3b52a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.database.executor": "Run",
-    "Python.dbconncheck.executor": "Run",
-    "Python.flask_check.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.open_accont_form.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/kc/python/OpenPMSAccount/Master_db_bk",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dbconncheck.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.open_accont_form.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/kc/python/OpenPMSAccount/Master_db_bk&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\kc\python\OpenPMSAccount\Master_db_bk" />

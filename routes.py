@@ -128,11 +128,11 @@ def step_one_validate():
     except ValueError as e:
         print(f"Error: {e}")
         logging.exception("Exception occurred: %s", str(e))
-        flash(f"Error: {e}", "danger")
+        flash(f"Error:Invalid Input", "danger")
     except Exception as e:
         print(f"Unexpected error: {e}")
         logging.exception("Exception occurred: %s", str(e))
-        flash(f"Unexpected error: {e}", "danger")
+        flash(f"Unexpected error: Invalid email", "danger")
     return redirect(url_for("main.step1"))
 
 
@@ -300,6 +300,22 @@ def preview():
     if 'mobile_no' in session:
         mobile_no = session['mobile_no']
         data = get_all_accont_data(mobile_no)
+        if data :
+            step = data[0].get('step')
+            routes = {
+                1: "/step1",
+                2: "/step2",
+                3: "/step3",
+                4: "preview.html"
+            }
+            if step == 4:
+                return render_template("preview.html", data=data)
+            else:
+                redirect_url = routes.get(step)
+            if redirect_url:
+                return redirect(redirect_url)
+        else:
+            return redirect("/step1")
         return render_template("preview.html", data=data)
     else:
         return redirect("/")

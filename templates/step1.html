@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Step 1</title>
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.plindia.com/images6/favicon.ico" />
+{% extends 'index.html' %}
 
-    <!-- Meta viewport for responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% block title %}Step 1{% endblock %}
 
-    <!-- Bootstrap and other dependencies -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-
-</head>
-<body>
+{% block content %}
 <div class="container-fluid px-2 py-5 mx-auto">
     <div class="row d-flex justify-content-center">
         <div class="col-xl-6 col-lg-7 col-md-8 col-12 text-center">
@@ -94,5 +79,4 @@
         });
     });
 </script>
-</body>
-</html>
+{% endblock %}
