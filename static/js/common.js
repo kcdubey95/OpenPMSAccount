@@ -1,3 +1,8 @@
+
+
+
+
+
 $('.alphavalid').on('keypress paste', function (e) {
     checkInputValidation(e, this, 'alphavalid');
 });
@@ -51,3 +56,59 @@ function checkInputValidation(e, pointer, validtype) {
         return true;
     }
 }
+
+
+function setActiveStep(step) {
+  const steps = document.querySelectorAll('.progress-step');
+  const progressBar = document.querySelector('.progress-bar-highlight');
+  if (progressBar) {
+    steps.forEach((element, index) => {
+      if (index < step) {
+        element.classList.add('completed');
+        element.classList.remove('active');
+      } else if (index === step) {
+        element.classList.add('active');
+        element.classList.remove('completed');
+      } else {
+        element.classList.remove('active', 'completed');
+      }
+    });
+    const stepPercentage = (step / (steps.length - 1)) * 100;
+    progressBar.style.width = `${stepPercentage}%`;
+  } else {
+    console.error('Progress bar element not found');
+  }
+}
+step= parseInt($('#progress_bar').val())
+setActiveStep(step);
+document.addEventListener('DOMContentLoaded', function () {
+    var prevButton = document.getElementById('prevButton');
+    prevButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        var confirmation = confirm('You have unsaved changes. Are you sure you want to go back?');
+            step= parseInt($('#progress_bar').val())
+        if (confirmation) {
+            var formData = {
+                step: step,
+            };
+            fetch('/update-step', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    window.location.href = '/step1';
+                } else {
+                    alert('An error occurred while saving your data. Please try again.');
+                }
+            })
+            .catch(error => {
+                alert('An error occurred while saving your data. Please try again.');
+            });
+        }
+    });
+});

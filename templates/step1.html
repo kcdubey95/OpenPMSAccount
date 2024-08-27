@@ -8,6 +8,14 @@
         <div class="col-xl-6 col-lg-7 col-md-8 col-12 text-center">
             <h2>Prabhudas Lilladher</h2>
             <h3 class="blue-text">Portfolio Management Services</h3>
+            <input type="hidden" id="progress_bar"  value="{{ data[0]['step'] if data  and data[0]['step'] else 1 }}">
+            <div class="progress-container">
+              <div class="progress-bar-highlight"></div> <!-- This represents the highlighted bar -->
+              <div class="progress-step completed">1</div>
+              <div class="progress-step completed">2</div>
+              <div class="progress-step completed">3</div>
+              <div class="progress-step active">4</div>
+            </div>
             <div class="card shadow">
                 <h5 class="text-center mb-4">Account Open</h5>
 

@@ -1,11 +1,11 @@
 import re
 from datetime import datetime
 import logging
-from flask import Blueprint, render_template, redirect, url_for, session, make_response, flash, request
+from flask import Blueprint, render_template, redirect, url_for, session, make_response, flash, request, jsonify
 from reportlab.lib.pagesizes import letter
 
 from controllers.user import add_user_mobile, update_user_stepone, update_user_steptwo, update_user_stepthree, \
-    get_all_accont_data, get_user_data
+    get_all_accont_data, get_user_data, rollback_db, update_user_step
 import sys
 from models.user import Open_Account, Occupation_Master, Relation_Master
 from reportlab.pdfgen import canvas
@@ -390,3 +390,15 @@ def generate_pdf():
 @main.route("/terms-and-conditions")
 def terms_conditions():
     return render_template("tc.html")
+
+
+@main.route("/update-step", methods=["POST"])
+def step_update():
+    if 'mobile_no' in session:
+        mobile_no = session['mobile_no']
+        request_data = request.get_json()
+        step = request_data['step']
+        users = Open_Account.get_user_data(mobile_no=mobile_no)
+        user = users[0]  # Assuming you want to update the first user in the list
+        update_user_step(user, step)
+        return jsonify({'status': 'success'})

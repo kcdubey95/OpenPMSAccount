@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d058d1f-21c7-49ec-8ccf-01196e3b52a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/step2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/step2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/preview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/step2.html" afterDir="false" />

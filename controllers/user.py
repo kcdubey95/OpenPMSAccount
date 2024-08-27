@@ -128,3 +128,14 @@ def get_all_accont_data(mobile_no):
             'income_rang': income.income_rang
         })
     return data
+
+
+def update_user_step(user, step):
+    if user:
+        user.step = step
+        db.session.commit()
+        return user
+
+
+def rollback_db():
+    db.session.rollback()

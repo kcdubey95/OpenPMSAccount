@@ -8,6 +8,14 @@
         <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
             <h2>Prabhudas Lilladher</h2>
             <h3 class="blue-text ">Portfolio Management Services</h3>
+            <input type="hidden" id="progress_bar"  value=" 3">
+            <div class="progress-container">
+              <div class="progress-bar-highlight"></div>
+              <div class="progress-step completed">1</div>
+              <div class="progress-step completed">2</div>
+              <div class="progress-step completed">3</div>
+              <div class="progress-step active">4</div>
+            </div>
             <div class="card">
                 <h5 class="text-center mb-4"> Account Preview</h5>
                     <div class="row justify-content-between text-left">
@@ -44,10 +52,13 @@
                     <div class="row justify-content-between text-left">
                         <div class="form-group col-12 flex-column">
                             <input type="checkbox" id="tc" name="terms">
-                            <label for="tc">I agree to the <a href="/terms-and-conditions"> terms and conditions</a></label>
+                            <label for="tc">I agree to the <a href="/terms-and-conditions" target="_blank"> terms and conditions</a></label>
                         </div>
                     </div>
                     <div class="row justify-content-center">
+                        <div class="form-group col-sm-6">
+                            <button id="prevButton" type="button" class="btn btn-primary btn-block">Prev</button>
+                        </div>
                         <div class="form-group col-sm-6">
                             <button id="agreeTerms" type="button" class="btn btn-primary btn-block">Submit</button>
                         </div>

@@ -1,5 +1,4 @@
-
-  $(document).ready(function(){
+$(document).ready(function(){
         $("form").submit(function(event){
             var fullname = $("#fullname").val().trim();
             var gender = $("input[name='gender']:checked").val();
@@ -43,4 +42,6 @@
             autoclose: true,
             format: "dd/mm/yyyy"
         });
-    });
+
+});
+
